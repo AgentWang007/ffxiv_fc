@@ -22,6 +22,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# Use FFXIV gem
+gem 'ffxiv', '~> 1.0', '>= 1.0.6'
+#Use paperclip for picture uploading
+gem 'paperclip', '~> 5.0'
+#Use aws to hold images
+gem 'aws-sdk-v1'
+#Use foundation as front-end environment
+gem 'foundation-rails', '~> 6.2', '>= 6.2.3.0'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
